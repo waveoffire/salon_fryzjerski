@@ -54,13 +54,11 @@
     <div class="row map">
       <div style="overflow:hidden;width: 100%;position: relative;height:500px;">
         <iframe
+          src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d487.36183163501386!2d17.00703635141033!3d54.47534800168742!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46fe1752570a23e1%3A0x7943704cb2276fb3!2sWasilewska-Smilgin+Ma%C5%82gorzata.+Salon+fryzjerski!5e0!3m2!1spl!2sus!4v1558285232281!5m2!1spl!2sus"
           width="100%"
           height="500"
-          src="https://maps.google.com/maps?width=700&amp;height=500&amp;hl=pl&amp;q=leszczy%C5%84skiego%201b%2C%20S%C5%82upsk%2CPoland+(Salon%20Fryzjerski%20Damsko-M%C4%99ski%20Ma%C5%82gorzata%20Wasilewska-Smilgin)&amp;ie=UTF8&amp;t=&amp;z=14&amp;iwloc=B&amp;output=embed"
           frameborder="0"
-          scrolling="no"
-          marginheight="0"
-          marginwidth="0"
+          allowfullscreen
         ></iframe>
       </div>
     </div>
