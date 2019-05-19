@@ -1,14 +1,27 @@
 <template>
-  <div class="container">
+  <div class="container-flex">
 
     <div class="row">
       <div class="col-12 head">
-        <h1> Salon Fryzjerski Damsko-Męski Małgorzata Wasilewska-Smilgin</h1>
-        <span class="line"></span>
+        <h1
+          data-aos="fade-left"
+          data-aos-delay="100"
+          data-aos-duration="600"
+        > Salon Fryzjerski Damsko-Męski Małgorzata Wasilewska-Smilgin</h1>
+        <span
+          data-aos="fade-right"
+          data-aos-delay="100"
+          class="line"
+        ></span>
       </div>
     </div>
     <div class="row content">
-      <div class="col-12 col-md-4 address">
+      <div
+        data-aos="zoom-in-right"
+        data-aos-delay="100"
+        data-aos-duration="600"
+        class="col-12 col-md-4 address"
+      >
         <h3>Adres</h3>
         <i
           class="fa fa-location-arrow"
@@ -24,7 +37,12 @@
           aria-hidden="true"
         ></i> tel: (59) 845-71-34<br>
       </div>
-      <div class="col-12 col-md-8 open">
+      <div
+        class="col-12 col-md-8 open"
+        data-aos="zoom-in-left"
+        data-aos-duration="600"
+        data-aos-delay="100"
+      >
         <div class="row">
 
           <h3>Godziny otwarcia</h3>
@@ -76,9 +94,22 @@ export default {
 <style scoped>
 .head {
   width: 100%;
+  text-align: center;
+  background-image: linear-gradient(
+    to bottom,
+    rgba(209, 230, 177, 0.699),
+    rgba(87, 50, 189, 0.226)
+  );
+  -webkit-clip-path: polygon(0 20%, 100% 0, 100% 50%, 0 90%);
+  clip-path: polygon(0 20%, 100% 0, 100% 50%, 0 90%);
+  height: 350px;
+
+  padding-top: 110px;
+  background-size: 100%;
 }
 .address {
   font-size: 1.3em;
+  padding-bottom: 30px;
 }
 .open {
   font-size: 1.2em;
@@ -94,26 +125,26 @@ export default {
   margin-bottom: 30px;
 }
 .map {
-  position: absolute;
-  left: 0;
-  right: 0;
-  height: 500px;
+  height: 502px;
+  width: 105%;
   border-top: 1px solid rgba(128, 128, 128, 0.212);
+  border-bottom: 1px solid rgba(128, 128, 128, 0.212);
 }
 #gmap_canvas img {
   max-width: none !important;
   background: none !important;
 }
-.container {
-  padding-bottom: 490px;
-}
 .content {
   padding-bottom: 50px;
   padding-top: 30px;
+  padding-left: 200px;
 }
 @media (max-width: 576px) {
   .head h1 {
     font-size: 1.5rem;
+  }
+  .content {
+    padding-left: 30px;
   }
 }
 </style>
