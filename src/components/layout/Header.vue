@@ -26,8 +26,31 @@ export default {
       for (var i = 0; i < underlines.length; i++) {
         underlines[i].style.transform = "translate3d(" + index * 100 + "%,0,0)";
       }
-      this.$router.push({ name: name });
+      if (name) {
+        this.$router.push({ name: name });
+      }
     }
+  },
+  mounted() {
+    switch (this.$route.name) {
+      case "Kontakt": {
+        this.ul(3);
+        break;
+      }
+      case "Cennik": {
+        this.ul(1);
+        break;
+      }
+      case "Galeria": {
+        this.ul(2);
+        break;
+      }
+      case "About": {
+        this.ul(4);
+        break;
+      }
+    }
+    console.log(this.$route.name);
   }
 };
 </script>
