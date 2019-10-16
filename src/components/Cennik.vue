@@ -55,7 +55,7 @@ export default {
         },
         { name: "Farbowanie", price: "60/190", time: "30 minut i dłużej" },
         {
-          name: "Strzyżenie męskie nożyczkami(klasyczne)",
+          name: "Strzyżenie męskie nożyczkami (klasyczne)",
           price: "15",
           time: "zróżnicowany"
         },
@@ -89,5 +89,10 @@ export default {
 }
 .bottom {
   margin: 0 15% 0 15%;
+}
+@media only screen and (max-width: 900px) {
+  .card-outline {
+    margin: 0;
+  }
 }
 </style>
