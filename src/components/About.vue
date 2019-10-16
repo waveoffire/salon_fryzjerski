@@ -1,5 +1,5 @@
 <template>
-
+  <div>Strona w trakcie tworzenia</div>
 </template>
 
 <script>

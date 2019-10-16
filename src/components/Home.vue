@@ -1,7 +1,7 @@
 <template>
-    <div>
-
-    </div>
+  <div>
+    Strona w trakcie tworzenia
+  </div>
 </template>
 
 <script>
