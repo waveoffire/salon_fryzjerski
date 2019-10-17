@@ -28,6 +28,21 @@
           Fryzjerski Małgorzata Wasilewska-Smilgin jako miejsce szczególnie
           godne zaufania! Przekonaj się, czy mają rację i odwiedź nas i sprawdź
           jak pracuje dobry fryzjer! Zapraszamy!
+          <div>
+            <a
+              target="_blank"
+              href="https://www.facebook.com/Salon-Fryzjerski-Ma%C5%82gorzata-Wasilewska-Smilgin-w-S%C5%82upsku-2044069099235550/"
+              ><i
+                class="fa fa-fw fa-5x fa-facebook-official"
+                aria-hidden="true"
+              ></i
+            ></a>
+            <a
+              target="_blank"
+              href="https://www.google.com/search?rlz=1C1GCEA_enPL855PL855&sxsrf=ACYBGNSNZtjHXC0tqbwFblmXP_wNhfzgxw%3A1571338293414&ei=NbioXf_vGOGkrgSp46DgCg&q=fryzjer+ma%C5%82gorzata+wasilewska+smilgin&oq=fryzjer+ma%C5%82gorzata+wasilewska+smilgin&gs_l=psy-ab.3..35i39.9451.10791..10999...0.0..0.85.574.8......0....1..gws-wiz.......35i304i39.odH0oNRu4j4&ved=0ahUKEwi_3rOm-6PlAhVhkosKHakxCKwQ4dUDCAs&uact=5#lrd=0x46fe1752570a23e1:0x7943704cb2276fb3,1,,,"
+              ><i class="fa fa-fw fa-5x fa-google" aria-hidden="true"></i
+            ></a>
+          </div>
         </div>
       </div>
       <div class="col-sm-12 col-md-12 col-12 col-lg-12 col-xl-6">
@@ -38,7 +53,7 @@
           data-aos-offset="120"
           class="woman"
           src="/img/womenblack.jpg"
-          alt=""
+          alt="Women"
           srcset=""
         />
         <div class="unsplash">

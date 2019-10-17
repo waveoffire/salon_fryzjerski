@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: http://www.example.com/mapawitryny.xml
+Sitemap: https://fryzjer.smilgin.co.pl/sitemap.xml
