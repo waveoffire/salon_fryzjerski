@@ -70,7 +70,7 @@ export default {
 };
 </script>
 
-<style scoped>
+<style lang="scss" scoped>
 .card-outline {
   border-top: 3px solid rgb(252, 140, 140);
   margin: 0 15% 0 15%;
@@ -83,10 +83,12 @@ export default {
 .column {
   border-bottom: 1px solid rgba(136, 136, 136, 0.842);
   padding: 10px 0 10px 0;
+
+  &:hover {
+    background-color: rgba(128, 128, 128, 0.1);
+  }
 }
-.column:hover {
-  background-color: rgba(128, 128, 128, 0.1);
-}
+
 .bottom {
   margin: 0 15% 0 15%;
 }

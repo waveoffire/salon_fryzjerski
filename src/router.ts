@@ -20,10 +20,6 @@ let router = new Router({
       children: [
         {
           path: "",
-          redirect: { name: "Home" }
-        },
-        {
-          path: "home",
           component: Home,
           name: "Home",
           meta: {
@@ -66,7 +62,7 @@ let router = new Router({
     },
     {
       path: "**",
-      redirect: { name: "home" }
+      redirect: { name: "Home" }
     }
   ]
 });

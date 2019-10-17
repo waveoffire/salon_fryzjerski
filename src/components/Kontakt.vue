@@ -1,18 +1,11 @@
 <template>
   <div class="container-flex">
-
     <div class="row">
       <div class="col-12 head">
-        <h1
-          data-aos="fade-left"
-          data-aos-delay="100"
-          data-aos-duration="600"
-        > Salon Fryzjerski Damsko-Męski Małgorzata Wasilewska-Smilgin</h1>
-        <span
-          data-aos="fade-right"
-          data-aos-delay="100"
-          class="line"
-        ></span>
+        <h1 data-aos="fade-left" data-aos-delay="100" data-aos-duration="600">
+          Salon Fryzjerski Damsko-Męski Małgorzata Wasilewska-Smilgin
+        </h1>
+        <span data-aos="fade-right" data-aos-delay="100" class="line"></span>
       </div>
     </div>
     <div class="row content">
@@ -23,19 +16,11 @@
         class="col-12 col-md-4 address"
       >
         <h3>Adres</h3>
-        <i
-          class="fa fa-location-arrow"
-          aria-hidden="true"
-        ></i> ul. Stanisława Leszczyńskiego 1b <br>
-        <i
-          class="fa fa-map-marker"
-          aria-hidden="true"
-        ></i> 76-200 Słupsk<br>
+        <i class="fa fa-location-arrow" aria-hidden="true"></i> ul. Stanisława
+        Leszczyńskiego 1b <br />
+        <i class="fa fa-map-marker" aria-hidden="true"></i> 76-200 Słupsk<br />
 
-        <i
-          class="fa fa-phone"
-          aria-hidden="true"
-        ></i> tel: (59) 845-71-34<br>
+        <i class="fa fa-phone" aria-hidden="true"></i> tel: (59) 845-71-34<br />
       </div>
       <div
         class="col-12 col-md-8 open"
@@ -44,26 +29,26 @@
         data-aos-delay="100"
       >
         <div class="row">
-
           <h3>Godziny otwarcia</h3>
         </div>
         <div class="row">
-
-          <div class="col-6"><b class="date">PONIEDZIAŁEK</b><br>
-            <b class="date">WTOREK</b><br>
-            <b class="date">ŚRODA</b><br>
-            <b class="date">CZWARTEK</b><br>
-            <b class="date"> PIĄTEK</b><br>
-            <b class="date">SOBOTA</b><br>
-            <b class="date">NIEDZIELA</b><br>
+          <div class="col-6">
+            <b class="date">PONIEDZIAŁEK</b><br />
+            <b class="date">WTOREK</b><br />
+            <b class="date">ŚRODA</b><br />
+            <b class="date">CZWARTEK</b><br />
+            <b class="date"> PIĄTEK</b><br />
+            <b class="date">SOBOTA</b><br />
+            <b class="date">NIEDZIELA</b><br />
           </div>
-          <div class="col-6"> 10:00 – 18:00<br>
-            10:00 – 18:00<br>
-            10:00 – 18:00<br>
-            10:00 – 18:00<br>
-            10:00 – 18:00<br>
-            09:00 – 14:00<br>
-            Zamknięte<br>
+          <div class="col-6">
+            10:00 – 18:00<br />
+            10:00 – 18:00<br />
+            10:00 – 18:00<br />
+            10:00 – 18:00<br />
+            10:00 – 18:00<br />
+            09:00 – 14:00<br />
+            Zamknięte<br />
           </div>
         </div>
       </div>
@@ -97,8 +82,8 @@ export default {
   text-align: center;
   background-image: linear-gradient(
     to bottom,
-    rgba(209, 230, 177, 0.699),
-    rgba(87, 50, 189, 0.226)
+    rgba(209, 230, 177, 0.856),
+    rgba(87, 50, 189, 0.397)
   );
   -webkit-clip-path: polygon(0 20%, 100% 0, 100% 50%, 0 90%);
   clip-path: polygon(0 20%, 100% 0, 100% 50%, 0 90%);
