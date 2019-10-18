@@ -3,6 +3,9 @@ import App from "./App.vue";
 import router from "./router";
 import AOS from "aos";
 import "aos/dist/aos.css"; // You can also use <link> for styles
+//@ts-ignore
+import VueParticles from "vue-particles";
+Vue.use(VueParticles);
 Vue.config.productionTip = false;
 
 new Vue({

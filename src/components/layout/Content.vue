@@ -6,7 +6,12 @@
 
     <!-- Main content -->
     <section class="content">
-      <router-view class="view" keep-alive transition transition-mode="out-in"></router-view>
+      <router-view
+        class="view"
+        keep-alive
+        transition
+        transition-mode="out-in"
+      ></router-view>
     </section>
   </div>
 </template>

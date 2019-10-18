@@ -1,5 +1,21 @@
 <template>
   <div class="back">
+    <vue-particles
+      color="#fc8c8c"
+      :particleOpacity="0.8"
+      :particlesNumber="100"
+      shapeType="circle"
+      :particleSize="3"
+      linesColor="#fc8c8c"
+      :linesWidth="1"
+      :lineLinked="true"
+      :lineOpacity="0.5"
+      :linesDistance="150"
+      :moveSpeed="3"
+      :hoverEffect="false"
+      :clickEffect="false"
+    >
+    </vue-particles>
     <div class="row">
       <div class="title col-sm-12 col-md-12 col-12 col-lg-12 col-xl-6">
         <div
@@ -114,6 +130,14 @@ export default {};
     padding-top: 12px;
   }
 }
+#particles-js {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 100;
+}
 .woman {
   width: 100%;
   padding-top: 20px;
@@ -156,6 +180,9 @@ export default {};
     font-size: 1.1rem;
     padding-top: 30px;
     margin: 10px;
+  }
+  #particles-js {
+    display: none;
   }
 }
 </style>
