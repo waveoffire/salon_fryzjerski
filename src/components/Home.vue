@@ -8,13 +8,13 @@
           data-aos-duration="2000"
           data-aos-offset="120"
         >
-          <div>Profesjonalny salon fryzjerski</div>
-          <div class="slupsk">
+          <h2 class="salon">Profesjonalny salon fryzjerski</h2>
+          <h1 class="slupsk">
             w Słupsku
-          </div>
-          <div class="care">
-            Jesteśmy tu by dbać o Twoje włosy
-          </div>
+          </h1>
+          <h3 class="care">
+            Małgorzata Wasilewska-Smilgin
+          </h3>
         </div>
         <div
           class="text"
@@ -106,12 +106,12 @@ export default {};
   padding-top: 250px;
   .slupsk {
     font-size: 6rem;
-    height: 60px;
-    line-height: 60px;
+    height: 50px;
+    line-height: 50px;
   }
   .care {
-    font-size: 1.2rem;
-    padding-top: 20px;
+    font-size: 2rem;
+    padding-top: 12px;
   }
 }
 .woman {
@@ -130,27 +130,30 @@ export default {};
   right: 0;
 }
 .text {
-  font-size: 1rem;
-  padding-top: 200px;
+  font-size: 1.5rem;
+  padding-top: 150px;
   margin: 100px;
 }
 
 @media only screen and (max-width: 900px) {
   .title {
+    .salon {
+      font-size: 1.7rem;
+    }
     padding-top: 100px;
-    font-size: 1.5rem;
+    font-size: 1.7rem;
     .slupsk {
       font-size: 4rem;
-      height: 40px;
-      line-height: 40px;
+      height: 30px;
+      line-height: 30px;
     }
     .care {
-      font-size: 1rem;
-      padding-top: 15px;
+      font-size: 1.6rem;
+      padding-top: 10px;
     }
   }
   .text {
-    font-size: 1rem;
+    font-size: 1.1rem;
     padding-top: 30px;
     margin: 10px;
   }
