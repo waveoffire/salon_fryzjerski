@@ -177,9 +177,9 @@ export default {
         }
       }
       document.title =
-        (tmp[tmp.length - 1] ? tmp[tmp.length - 1].title : "") +
+        config.current.title +
         " - " +
-        config.current.title;
+        (tmp[tmp.length - 1] ? tmp[tmp.length - 1].title : "");
       this.title.elems = tmp;
     }
   },

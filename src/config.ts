@@ -12,7 +12,7 @@ let config = {
   dev: <IConfig>{
     //api: "http://127.0.0.1:30001/api",
     logo: "logo.png",
-    title: "Salon Fryzjerski",
+    title: "Salon Fryzjerski w Słupsku",
     hosts: ["localhost:8080", "localhost:8082"]
   },
   zdzis: <IConfig>{
