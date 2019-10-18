@@ -1,55 +1,12 @@
 <template>
-  <div
-    class="content-wrapper"
-    style="min-height:600px;"
-  >
+  <div class="content-wrapper" style="min-height:600px;">
     <!-- Content Header (Page header) -->
-    <div class="content-header">
-      <div class="container-fluid">
-        <div class="row mb-2">
-          <div class="col-sm-4">
-            <h1 class="m-0 text-dark">{{ title.elems[title.elems.length - 1] ? title.elems[title.elems.length - 1].title : "[brak tytułu]" }}</h1>
-          </div>
-          <!-- /.col -->
-          <div class="col-sm-8">
-            <ol class="breadcrumb float-sm-right">
-              <li
-                class="breadcrumb-item"
-                v-if="currentRoute.name!='Home'"
-              >
-                <router-link to="/">Strona główna</router-link>
-              </li>
-              <li
-                class="breadcrumb-item"
-                v-for="(item, index) in title.elems"
-                :class="{'active': index + 1 == title.length}"
-                :key='index'
-              >
-                <router-link
-                  v-if="item.name && item.name.length"
-                  :to="{ name: item.name, params: item.params}"
-                >{{ item.title }}</router-link>
-                <template v-if="!item.name || !item.name.length">{{ item.title }}</template>
-              </li>
-            </ol>
-          </div>
-          <!-- /.col -->
-        </div>
-        <!-- /.row -->
-      </div>
-      <!-- /.container-fluid -->
-    </div>
+
     <!-- /.content-header -->
 
     <!-- Main content -->
     <section class="content">
-      <router-view
-        class="view"
-        keep-alive
-        transition
-        transition-mode="out-in"
-      >
-      </router-view>
+      <router-view class="view" keep-alive transition transition-mode="out-in"></router-view>
     </section>
   </div>
 </template>
@@ -241,4 +198,7 @@ export default {
 </script>
 
 <style>
+.content-wrapper {
+  padding-top: 50px;
+}
 </style>
