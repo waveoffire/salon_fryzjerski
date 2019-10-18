@@ -1,5 +1,5 @@
 <template>
-  <div class="content-wrapper" style="min-height:600px;">
+  <div class="content-wrapper" style="min-height:87vh;">
     <!-- Content Header (Page header) -->
 
     <!-- /.content-header -->
