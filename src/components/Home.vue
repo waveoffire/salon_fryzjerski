@@ -1,12 +1,12 @@
 <template>
   <div class="back">
-    <vue-particles
-      color="#fc8c8c"
+    <!--     <vue-particles
+      color="#fff"
       :particleOpacity="0.8"
       :particlesNumber="100"
       shapeType="circle"
       :particleSize="3"
-      linesColor="#fc8c8c"
+      linesColor="#fff"
       :linesWidth="1"
       :lineLinked="true"
       :lineOpacity="0.5"
@@ -14,23 +14,14 @@
       :moveSpeed="3"
       :hoverEffect="false"
       :clickEffect="false"
-    >
-    </vue-particles>
+    ></vue-particles>-->
     <div class="row">
       <div class="title col-sm-12 col-md-12 col-12 col-lg-12 col-xl-6">
-        <div
-          data-aos="up"
-          data-aos-delay="200"
-          data-aos-duration="2000"
-          data-aos-offset="120"
-        >
-          <h2 class="salon">Profesjonalny salon fryzjerski</h2>
-          <h1 class="slupsk">
-            w Słupsku
-          </h1>
-          <h3 class="care">
-            Małgorzata Wasilewska-Smilgin
-          </h3>
+        <div data-aos="up" data-aos-delay="200" data-aos-duration="2000" data-aos-offset="120">
+          <h2 class="salon">Profesjonalny</h2>
+          <h1 class="slupsk">Salon Fryzjerski</h1>
+          <h3 class="care">Małgorzata Wasilewska-Smilgin</h3>
+          <h3>Słupsk ul. leszczyńskiego 1b</h3>
         </div>
         <div
           class="text"
@@ -48,16 +39,15 @@
             <a
               target="_blank"
               href="https://www.facebook.com/Salon-Fryzjerski-Ma%C5%82gorzata-Wasilewska-Smilgin-w-S%C5%82upsku-2044069099235550/"
-              ><i
-                class="fa fa-fw fa-5x fa-facebook-official"
-                aria-hidden="true"
-              ></i
-            ></a>
+            >
+              <i class="fa fa-fw fa-5x fa-facebook-official" aria-hidden="true"></i>
+            </a>
             <a
               target="_blank"
               href="https://www.google.com/search?rlz=1C1GCEA_enPL855PL855&sxsrf=ACYBGNSNZtjHXC0tqbwFblmXP_wNhfzgxw%3A1571338293414&ei=NbioXf_vGOGkrgSp46DgCg&q=fryzjer+ma%C5%82gorzata+wasilewska+smilgin&oq=fryzjer+ma%C5%82gorzata+wasilewska+smilgin&gs_l=psy-ab.3..35i39.9451.10791..10999...0.0..0.85.574.8......0....1..gws-wiz.......35i304i39.odH0oNRu4j4&ved=0ahUKEwi_3rOm-6PlAhVhkosKHakxCKwQ4dUDCAs&uact=5#lrd=0x46fe1752570a23e1:0x7943704cb2276fb3,1,,,"
-              ><i class="fa fa-fw fa-5x fa-google" aria-hidden="true"></i
-            ></a>
+            >
+              <i class="fa fa-fw fa-5x fa-google" aria-hidden="true"></i>
+            </a>
           </div>
         </div>
       </div>
@@ -70,11 +60,11 @@
           class="woman"
           src="/img/womenblack.jpg"
           alt="Women"
-          srcset=""
+          srcset
         />
         <div class="unsplash">
           Photo by Angelo Pantazis on
-          <a href="https://unsplash.com/photos/uIyzZCdCnWc"> Unsplash </a>
+          <a href="https://unsplash.com/photos/uIyzZCdCnWc">Unsplash</a>
         </div>
       </div>
     </div>
