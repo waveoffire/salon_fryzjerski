@@ -1,1 +1,1 @@
-Live: https://fryzjer.smilgin.co.pl/
+Live: https://fryzjer.smilgin.eu/
